@@ -18,10 +18,7 @@ bool isValidSubsequence(vector<int> arr, vector<int> seq)
         {
             seq_idx++;
         }
-        else
-        {
-            arr_idx++;
-        }
+        arr_idx++;
     }
     return seq_idx == seq.size();
 }
